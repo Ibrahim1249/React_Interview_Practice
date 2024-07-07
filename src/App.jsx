@@ -5,10 +5,11 @@
 // import Carousal from "./Components/Carousal"
 import "./App.css"
 // import Post from "./Components/Pagination/Post"
-import ProductPage from "./Components/Pagination2/ProductPage"
+// import ProductPage from "./Components/Pagination2/ProductPage"
 // import Infinite from "./Components/Infinite Scroll/Infinite"
 // import FAQ from "./Components/Accordian/FAQ"
 // import Fetching from "./Components/Api Search/Fetching"
+import Rating from "./Components/Star Rating/Rating"
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
     // <Fetching />
     // <Infinite />
     // <Post />
-    <ProductPage />
+    // <ProductPage />
+    <Rating />
   )
 }
 
