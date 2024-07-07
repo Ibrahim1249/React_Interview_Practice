@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+
+}
+
+
+.img{
+    width: 400px;
+    height: 400px;
+    margin: 6rem auto;
+   cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+.left-btn , .right-btn{
+    position: absolute;
+    font-size: 4rem;
+    top: 40%;
+    cursor: pointer;
+    background-color: lightblue;
+
+
+}
+.left-btn {
+    left: 30%;
+}
+.right-btn{
+    right: 30%;
+}
+
+
+.faq-container{
+    width: 600px;
+    padding: 1rem;
+    border: 2px solid black;
+    margin: 5rem auto;
+
+}
+.faq-container h1{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.accordian-container{
+    padding: 1rem;
+    border: 1px solid red;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+.accordian-container span{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+}
+.accordian-container h3{
+    margin-bottom: 0.5rem;
+}
+
+.main-container{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 10rem;
+    padding: 0.5rem;
+    border: 2px solid red;
+    height: fit-content;
+
+}
+.product img{
+    width: 100px;
+}
+
+.infinite-container{
+    margin: 90%;
+    margin: auto;
+    padding: 1rem;
+    border: 2px solid navy;
+}
+.data{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 2px solid rebeccapurple;
+}
+
+.main-container{
+     padding: 1rem;
+     border: 2px solid red;
+     width: 90%;
+     margin: auto;
+}
+.post-container{
+    display: flex;
+    gap: 2.5rem;
+    
+}
+.post-container img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.pagination-container{
+    width: 50%;
+    margin: auto;
+    border: 2px solid rebeccapurple;
+    padding: 1rem ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pagination-container .btn{
+    background-color: lightblue;
+    padding: 0.5rem ;
+    border: 1px solid royalblue;
+    cursor: pointer;
+}
+.active{
+    background-color: #fff !important;
+    border: 2px solid black;
+    color: red;
+}
+
+.product-page{
+    padding: 4rem 6%;
+    text-align: center;
+
+}
+.product-page input{
+    padding: 8px 18px;
+    width: 500px;
+    margin-bottom: 2rem;
+}
+.product-page h3{
+    margin-bottom: 1rem;
+}
+.display-product{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.products{
+    width: 300px;
+    padding: 0.5rem;
+    border: 2px solid rgb(192, 187, 187);
+    margin-bottom: 1.5rem;
+    height: fit-content;
+    border-radius: 10px;
+
+}
+.products img{
+    width: 200px;
+    margin-bottom: 1rem;
+
+}
+.products p{
+   text-align: start;
+   margin-bottom: 0.5rem;
+}
+.products span{
+    font-weight: 600;
+    font-size: 18px;
+}
