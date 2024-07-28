@@ -9,7 +9,8 @@ import "./App.css"
 // import Infinite from "./Components/Infinite Scroll/Infinite"
 // import FAQ from "./Components/Accordian/FAQ"
 // import Fetching from "./Components/Api Search/Fetching"
-import Rating from "./Components/Star Rating/Rating"
+// import Rating from "./Components/Star Rating/Rating"
+import VirtualizedList from "./Components/VirtualizedList/VirtualizedList"
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
     // <Infinite />
     // <Post />
     // <ProductPage />
-    <Rating />
+    <VirtualizedList />
   )
 }
 
