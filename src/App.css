@@ -127,11 +127,11 @@ img{
     border: 1px solid royalblue;
     cursor: pointer;
 }
-.active{
+/* .active{
     background-color: #fff !important;
     border: 2px solid black;
     color: red;
-}
+} */
 
 .product-page{
     padding: 4rem 6%;
@@ -184,3 +184,41 @@ img{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
+ /* stepper component css */
+
+ .stepper-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+ }
+.stepper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+.step-number{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(189, 181, 181);
+    position: relative;
+}
+.step-line{
+    width: 2px;
+    height: 2.5rem;
+    position: absolute;
+    top: 2.5rem;
+    background-color: grey;
+}
+.active {
+    background-color: #017bfe;
+  }
+  

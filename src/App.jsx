@@ -10,7 +10,8 @@ import "./App.css"
 // import FAQ from "./Components/Accordian/FAQ"
 // import Fetching from "./Components/Api Search/Fetching"
 // import Rating from "./Components/Star Rating/Rating"
-import VirtualizedList from "./Components/VirtualizedList/VirtualizedList"
+// import VirtualizedList from "./Components/VirtualizedList/VirtualizedList"
+import StepperComponent from "./Components/Stepper/StepperComponent"
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
     // <Infinite />
     // <Post />
     // <ProductPage />
-    <VirtualizedList />
+    // <VirtualizedList />
+    <StepperComponent/>
   )
 }
 
