@@ -11,7 +11,8 @@ import "./App.css"
 // import Fetching from "./Components/Api Search/Fetching"
 // import Rating from "./Components/Star Rating/Rating"
 // import VirtualizedList from "./Components/VirtualizedList/VirtualizedList"
-import StepperComponent from "./Components/Stepper/StepperComponent"
+// import StepperComponent from "./Components/Stepper/StepperComponent"
+import EngineComponent from "./Components/SearchEngine/EngineComponent"
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
     // <Post />
     // <ProductPage />
     // <VirtualizedList />
-    <StepperComponent/>
+    // <StepperComponent/>
+    <EngineComponent/>
   )
 }
 

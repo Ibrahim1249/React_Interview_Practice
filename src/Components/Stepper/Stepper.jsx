@@ -34,8 +34,8 @@ function Stepper({ steps }) {
         </div>
         <div className="stepper-content">{steps[currentStep].content}</div>
         <div className="stepper-buttons">
-          {currentStep > 0 &&  <button onClick={handleBack}>Back</button>}
-          <button onClick={handleContinue}>Continue</button>
+          {currentStep > 0 &&  <button onClick={handleBack} className="button">Back</button>}
+          <button onClick={handleContinue} className={currentStep === steps.length - 1 ? "button disabled" : "button"} disabled={currentStep === steps.length -1 ? true : false} >Continue</button>
         </div>
       </div>
     </>
