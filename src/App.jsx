@@ -4,6 +4,7 @@
 // import todoStore from "../Store/todoStore"
 // import Carousal from "./Components/Carousal"
 import "./App.css"
+import StopWatch from "./Components/Stop Watch/StopWatch"
 // import Post from "./Components/Pagination/Post"
 // import ProductPage from "./Components/Pagination2/ProductPage"
 // import Infinite from "./Components/Infinite Scroll/Infinite"
@@ -12,7 +13,7 @@ import "./App.css"
 // import Rating from "./Components/Star Rating/Rating"
 // import VirtualizedList from "./Components/VirtualizedList/VirtualizedList"
 // import StepperComponent from "./Components/Stepper/StepperComponent"
-import EngineComponent from "./Components/SearchEngine/EngineComponent"
+// import EngineComponent from "./Components/SearchEngine/EngineComponent"
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
     // <ProductPage />
     // <VirtualizedList />
     // <StepperComponent/>
-    <EngineComponent/>
+    // <EngineComponent/>
+    <StopWatch />
   )
 }
 
