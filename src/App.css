@@ -280,3 +280,53 @@ img{
     display: flex;
     gap: 2rem;
   }
+
+  /*** Toaster CSS *****/
+  .button-container button {
+    margin: 0.25rem;
+    cursor: pointer;
+    padding: 0.25rem;
+  }
+  .toast-container {
+    position: fixed;
+    top: 0.25rem;
+    right: 0.25rem;
+  }
+  
+  .toast {
+    padding: 1rem;
+    width: 200px;
+    background-color: rgb(240, 238, 128);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    animation: slide 1s 1;
+    margin-bottom: 1rem;
+  }
+  
+  .toast span {
+    cursor: pointer;
+    color: brown;
+  }
+  .success {
+    background-color: lightgreen;
+  }
+  .error {
+    background-color: rgb(219, 61, 49);
+  }
+  .info {
+    background-color: lightskyblue;
+  }
+  .alert {
+    background-color: lightgray;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translate(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
