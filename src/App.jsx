@@ -4,6 +4,7 @@
 // import todoStore from "../Store/todoStore"
 // import Carousal from "./Components/Carousal"
 import "./App.css"
+import DayView from "./Components/Google Calander/DayView"
 import StopWatch from "./Components/Stop Watch/StopWatch"
 import { Toaster } from "./Components/Toaster/Toaster"
 // import Post from "./Components/Pagination/Post"
@@ -30,7 +31,8 @@ function App() {
     // <StepperComponent/>
     // <EngineComponent/>
     // <StopWatch />
-    <Toaster />
+    // <Toaster />
+    <DayView />
   )
 }
 
