@@ -4,9 +4,10 @@
 // import todoStore from "../Store/todoStore"
 // import Carousal from "./Components/Carousal"
 import "./App.css"
-import DayView from "./Components/Google Calander/DayView"
-import StopWatch from "./Components/Stop Watch/StopWatch"
-import { Toaster } from "./Components/Toaster/Toaster"
+import Start from "./Components/Drag & Drop/Start"
+// import DayView from "./Components/Google Calander/DayView"
+// import StopWatch from "./Components/Stop Watch/StopWatch"
+// import { Toaster } from "./Components/Toaster/Toaster"
 // import Post from "./Components/Pagination/Post"
 // import ProductPage from "./Components/Pagination2/ProductPage"
 // import Infinite from "./Components/Infinite Scroll/Infinite"
@@ -32,7 +33,8 @@ function App() {
     // <EngineComponent/>
     // <StopWatch />
     // <Toaster />
-    <DayView />
+    // <DayView />
+    <Start/>
   )
 }
 

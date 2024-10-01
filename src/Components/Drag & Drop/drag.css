@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 235, 235);
+}
+.start-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 8rem;
+}
+.drag-container{
+    border: 2px solid red;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 350px;
+    height: 450px;
+}
+.drag-container h2{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.drag-item{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    font-size: 18px;
+    cursor: move;
+    user-select: none;
+}
